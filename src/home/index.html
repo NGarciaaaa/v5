@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#262429" />
+    <meta
+      name="description"
+      content="Noah Garcia — Jr. Web Developer, Web Designer, and Video Editor."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap"
+    />
+    <link rel="preload" as="image" href="/me-crop.webp" fetchpriority="high" />
+    <title>Noah Garcia | Portfolio</title>
+    <link rel="stylesheet" href="/src/global.css" />
+  </head>
+  <body class="is-loading">
+    <div class="intro" id="intro" aria-hidden="true">
+      <div class="intro-loader" id="intro-loader">
+        <span>N</span><span>O</span><span>A</span><span>H</span><span>G</span
+        ><span>A</span><span>R</span><span>C</span><span>I</span><span>A</span>
+      </div>
+      <div class="intro-stage" id="intro-stage">
+        <img
+          class="intro-person"
+          id="intro-person"
+          src="/me-crop.webp"
+          alt=""
+          width="225"
+          height="559"
+        />
+      </div>
+    </div>
+    <div id="navbar"><!-- NAVBAR --></div>
+    <main>
+      <!-- HOME -->
+      <!-- ABOUT -->
+      <!-- GALLERY -->
+      <!-- CONTACT -->
+      <!-- FOOTER -->
+    </main>
+    <button
+      class="back-to-top"
+      id="back-to-top"
+      type="button"
+      aria-label="Back to top"
+      title="Back to top"
+    >
+      <svg class="back-to-top-ring" viewBox="0 0 56 56" aria-hidden="true">
+        <circle class="back-to-top-track" cx="28" cy="28" r="24"></circle>
+        <circle
+          class="back-to-top-progress"
+          id="back-to-top-progress"
+          cx="28"
+          cy="28"
+          r="24"
+        ></circle>
+      </svg>
+      <svg class="back-to-top-arrow" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 18V6M6.5 11.5 12 6l5.5 5.5"></path>
+      </svg>
+    </button>
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<section class="section contact-section" id="contact">
+  <div class="container contact-inner">
+    <div class="section-title contact-title reveal">
+      <h2>Get In Touch</h2>
+    </div>
+
+    <div class="contact-card reveal">
+      <div class="contact-details">
+        <a href="mailto:haonaicrag052@gmail.com" class="contact-item"><span class="contact-icon">✉</span><span>haonaicrag052@gmail.com</span></a>
+        <a href="tel:+639510578625" class="contact-item"><span class="contact-icon">⌕</span><span>+63 9510578625</span></a>
+        <a href="https://ngarcia.github.io" target="_blank" rel="noreferrer" class="contact-item"><span class="contact-icon">◎</span><span>https://ngarcia.github.io</span></a>
+      </div>
+
+      <div class="contact-divider" aria-hidden="true"></div>
+
+      <form class="contact-form" id="contact-form">
+        <label><span class="sr-only">Your Name</span><input name="name" type="text" placeholder="Your Name" autocomplete="name" required></label>
+        <label><span class="sr-only">Your Email</span><input name="email" type="email" placeholder="Your Email" autocomplete="email" required></label>
+        <label><span class="sr-only">Your Message</span><textarea name="message" rows="5" placeholder="Your Message" required></textarea></label>
+        <button class="btn btn-primary send-btn" type="submit">Send</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div class="modal" id="cv-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="cv-modal-title">
+  <div class="modal-backdrop" data-close-modal></div>
+  <div class="modal-card">
+    <button class="modal-close" type="button" data-close-modal aria-label="Close">×</button>
+    <h2 id="cv-modal-title">CV</h2>
+    <p>The portfolio is ready, but a CV file has not been added to the project yet. Add your PDF as <code>public/Noah-Garcia-CV.pdf</code> and wire the button to it when your CV is ready.</p>
+  </div>
+</div>
+
+<div class="modal" id="reel-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="reel-modal-title">
+  <div class="modal-backdrop" data-close-modal></div>
+  <div class="modal-card">
+    <button class="modal-close" type="button" data-close-modal aria-label="Close">×</button>
+    <h2 id="reel-modal-title">Demo Reel</h2>
+    <p>Your demo reel can be connected here later. The button is intentionally kept functional so the design has no dead navigation.</p>
+  </div>
+</div>
